@@ -1,0 +1,118 @@
+Log In	Type of check
+Ensure that all the fields have titles.	Smoke
+Upon click of any input text field, mouse arrow pointer should get changed to cursor.	Smoke
+Input valid email, password and click "Log in" button.	Smoke
+Input valid phone number, password and click "Log in" button.	Smoke
+Check option "Remember me on this computer".	Smoke
+Empty field email. Click "Log in" button.	Critical path
+Empty field password. Click "Log in" button.	Critical path
+Empty fields email and password. Click "Log in" button.	Critical path
+Input simple email: e@mail.co Input valid password and click "Log in" button.	Critical path
+Input in lowercase email. Input valid password and click "Log in" button.	Critical path
+Input in uppercase email. Input valid password and click "Log in" button.	Critical path
+Dot in the address:  firstname.lastname@mail.com Input valid password and click "Log in" button.	Critical path
+Dash in address:  firstname-lastname@mail.com Input valid password and click "Log in" button.	Critical path
+Plus in address:  firstname+lastname@mail.com Input valid password and click "Log in" button.	Critical path
+Input numeric address:  1234567890@mail.com Input valid password and click "Log in" button.	Critical path
+Dash in domain:  email@mail-one.com Input valid password and click ""Log in" button.	Critical path
+Information in the "Password" field should be displayed on the display screen with circles, dots or stars.	Critical path
+Missing address:  @mail.com Input valid password and click "Log in" button.	Extended
+Missing @:  email.mail.com Input valid password and click "Log in" button.	Extended
+Input  #@^%#$@$#.com Input valid password and click "Log in" button.	Extended
+Copy/paste email Input valid password and click "Log in" button.	Extended
+Input two @@ Input valid password and click "Log in" button.	Extended
+Input dot in address: .email@mail.com Input valid password and click "Log in" button.	Extended
+Dash in domain:  email@-mail.com Input valid password and click "Log in" button.	Extended
+Dot in domain:  email@.mail.com Input valid password and click "Log in" button.	Extended
+Unicode in address Input valid password and click "Log in" button.	Extended
+Input 'admin' password Input valid email and click "Log in" button.	Extended
+Check the limit on the length of the email and password	Extended
+Check cyrillic input in field email/password	Extended
+Sing Up/Create a new account	
+Input all fields correct information and press the button "Sing Up".	Smoke
+Upon click of any input text field, mouse arrow pointer should get changed to cursor.	Smoke
+Ensure that all the fields have titles.	Smoke
+Ensure that the disabled fields are grayed out and user is not able to set focus on these fields.	Smoke
+Tab and Shift+Tab order should work properly.	Smoke
+Gender	
+Validate that the user is able to select only one radio option and any combination for check boxes.	Smoke
+Check info notifications	Smoke
+First name field	
+Input on different languages (include check at the same time)	Critical path
+Empty field first name. Input valid data in another fields and click "Sing in" button.	Critical path
+Input in lowercase	Critical path
+Input in uppercase	Critical path
+Input in the field first name, last name, password: newuser (full match)	Extended
+Check user with name: admin (where 'a' from Russian alphabet)	Extended
+Use button 'Space' at the beginning, in the middle, at the end of text field	Extended
+Input letters with different register	Extended
+Check input fields for numbers	Extended
+Last name field	
+Input on different languages (include check at the same time)	Critical path
+Empty field first name. Input valid data in another fields and click "Sing in" button.	Critical path
+Input in lowercase	Critical path
+Input in uppercase	Critical path
+Input in the field first name, last name, password: newuser (full match)	Extended
+Check user with name: admin (where 'a' from Russian alphabet)	Extended
+Use button 'Space' at the beginning, in the middle, at the end of text field	Extended
+Input letters with different register	Extended
+Check input fields for numbers	Extended
+Email/mobile phone field	
+Empty field email/mobile phone. Input valid data in another fields and click "Log in" button.	Critical path
+Input simple email: e@mail.com	Critical path
+Input in lowercase email.	Critical path
+Input in uppercase email.	Critical path
+Dot in the address:  firstname.lastname@mail.com	Critical path
+Dash in address:  firstname-lastname@mail.com	Critical path
+Plus in address:  firstname+lastname@mail.com	Critical path
+Input numeric address:  1234567890@mail.com	Critical path
+Dash in domain:  email@mail-one.com	Critical path
+Missing address:  @mail.com	Extended
+Missing @:  email.mail.com	Extended
+Input  #@^%#$@$#.com	Extended
+Copy/paste email	Extended
+Input two @@ in email	Extended
+Input dot in address: .email@mail.com	Extended
+Dash in domain:  email@-mail.com	Extended
+Dot in domain:  email@.mail.com	Extended
+Check the limit on the length of the email/mobile phone	Extended
+Use button 'Space' at the beginning, in the middle, at the end of text field	Extended
+Check input fields for special characters like '-' , ' ? ', @,#,<> \ : ;"	Extended
+Password field	
+Empty field Password. Input valid data in another fields and click "Sing in" button.	Critical path
+Empty fields first name, last name. Input valid data in another fields and click "Sing in" button.	Critical path
+Empty fields email/mobile phone, password. Input valid data in another fields and click "Sing in" button.	Critical path
+So many times input invalid password	Critical path
+SQL injection SELECT user();	Extended
+XSS injection	Extended
+Field Age	
+Input Valid age	Smoke
+Empty field age. Input valid data in another fields and click "Sing in" button.	Critical path
+Input 0	Critical path
+Input -1	Extended
+Input 200	Extended
+Input text	Extended
+Input 0.25	Extended
+Input 0,52	Extended
+Input with space between numbers 2 5	Extended
+Input space at the beginning of number 25	Extended
+Dropdown list Birthday	
+Dropdown list Birthday should have first entry as blank or text like "Month/Day/Year".	Smoke
+Verify that the dropdown list Birthday values are displayed in a defined sort order	Smoke
+Check if dropdown list Birthday options are readable and not truncated due to field size limit	Smoke
+Checking February 29th of a leap year	Critical path
+Select a Date of Birthday in the future	Critical path
+Empty fields day/month/year	Critical path
+Input numbers manually	Extended
+Input text in the field of day/month/year	Extended
+Unicode symbols (non letters)	Extended
+Forgot Password	
+Input valid email	Smoke
+Input valid mobile phone number	Smoke
+Input on different languages	Critical path
+Unicode symbols (non letters)	Extended
+Check input fields for special characters like '-' , ' ? ', @,#,<> \ : ;"	Extended
+Check the limit on the length of the email	Extended
+Check the limit on the length of the mobile phone	Extended
+Copy/paste email	Extended
+Copy/paste mobile phone number	Extended
